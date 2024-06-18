@@ -1,7 +1,7 @@
 const counterText = document.querySelector(".count-text");
 const btns = document.querySelectorAll(".btn");
 
-let count = 1;
+let count = 0;
 
 btns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
